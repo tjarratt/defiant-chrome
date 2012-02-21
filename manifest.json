@@ -1,0 +1,14 @@
+{
+  "name": "Defiant Grammar Nazi",
+  "version": "0.0.1",
+  "description": "Change all instances of 'defiantly' to 'definitely'",
+  "permissions": [
+    "http://*/*"
+  ],
+  "content_scripts": [
+      {
+        "matches": ["http://*/*"],
+        "js": ["defiant.js"]
+      }
+    ]
+}
